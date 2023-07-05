@@ -86,7 +86,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -100,8 +100,16 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+So for this first area I would most likely optimize some code here by essentially grouping the lines into one chunk rather line-by-line */
 
-.benefit-lead h3 {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -121,13 +129,30 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+Same here */
 
-.benefit-brand img {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+obviously leaving the extra lines of code here makes it cluttered but illistrates the point that is being made*/
+
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
